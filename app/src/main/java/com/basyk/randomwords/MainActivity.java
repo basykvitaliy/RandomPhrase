@@ -122,14 +122,5 @@ public class MainActivity extends AppCompatActivity {
             alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(0));
         }
         alertDialog.show();
-//
-//        builder.setTitle("Вы точно хотите выйти?")
-//                .setNegativeButton("Нет", null)
-//                .setPositiveButton("Да", new DialogInterface.OnClickListener() {
-//                    @Override
-//                    public void onClick(DialogInterface dialog, int which) {
-//                        finishAffinity();
-//                    }
-//                }).show();
     }
 }
